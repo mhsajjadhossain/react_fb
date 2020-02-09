@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.post_widget{
+	position: relative;
+}
+.post_widget button {
+	background: transparent;
+	border: 0;
+	padding: 15px 20px 15px 0px;
+	display: inline-block;
+	font-weight: 600;
+	transition: all .3s linear;
+}
+
+.post_widget button:hover{
+	color: rgb(0, 156, 247);
+}
+.react-wrap {
+	position: absolute;
+	left: -30px;
+	bottom: 76%;
+	z-index: 999;
+	background: ;
+}
+
+.icon_tray {
+	-webkit-box-shadow: -1px 12px 30px 2px rgba(179, 179, 179, .2);
+	-moz-box-shadow: -1px 12px 30px 2px rgba(179, 179, 179, .2);
+	box-shadow: -1px 12px 30px 2px rgba(179, 179, 179, .2);
+	padding: 0 15px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	background: #ffffff;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	width: 0;
+	opacity: 0;
+}
+
+.single_imo {
+	position: relative;
+	cursor: pointer;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+}
+
+.single_imo:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+
+.single_imo p {
+	position: absolute;
+	left: 50%;
+	top: -13px;
+	transform: translateX(-50%);
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 5px;
+	line-height: 1;
+	border-radius: 14px;
+	font-size: 14px;
+	opacity: 0;
+	transition: all .3s linear;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+}
+
+.single_imo:hover p {
+	opacity: 1;
+}
